@@ -17,7 +17,8 @@ function renderProductsCards(json) {
 clearProducts ();
 let products = parseProducts(json);
 let length = products.length;
-    
+    while (products >= 0 && products <= (length - 1)){
+    }
 };
 
 
